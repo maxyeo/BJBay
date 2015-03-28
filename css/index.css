@@ -31,6 +31,7 @@ h1, h2 {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-style: normal;
   font-weight: 300;
+  text-transform: uppercase;
 }
 h3, h4 {
   font-family: 'Droid Serif', serif;
@@ -71,4 +72,22 @@ html, body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 25px;
+  margin: .15em;
+}
+
+h3 {
+  font-size: 16px;
+  color: #999;
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 2em auto;
 }
