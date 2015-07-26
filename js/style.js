@@ -3,15 +3,15 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-  sizeitup();
+    sizeitup();
 });
 
 function sizeitup() {
-  var bodyh = $(window).height() * .9;
-  var bodyw = $(window).width();
-  if (bodyw > 610) {
-    $(".top").css("height",bodyh);
-  } else {
-    $(".top").css("height","inherit");
-  }
+    var bodyh = $(window).height();
+    var bodyw = $(window).width();
+    if (bodyw > 676) {
+        $(".top").css("height",bodyh);
+    } else {
+        $(".top").css("height","inherit");
+    }
 }
