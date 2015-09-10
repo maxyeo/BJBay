@@ -1,5 +1,5 @@
 /*
-Theme Name: Blue Jay Bay 2015
+Theme Name: BJBay
 Author: Max Yeo
 Author URI: http://www.maxwellyeo.com
 Description: Theme created for Blue Jay Bay of Hopkins Student Enterprises.  Designed by Max Yeo, this theme exudes professionalism.  
@@ -1009,72 +1009,6 @@ header nav li a:hover {
   font-size: 36px;
   color: #fff;
 }
-#sell-page {
-  position: relative;
-  padding: 50px 0;
-}
-.sell-input {
-  float: left;
-  padding: 0 5px;
-  position: relative;
-}
-.sell-input h4 {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  margin: 0;
-  padding: 0 5px;
-  line-height: 20px;
-  font-size: 14px;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  background-color: #fff;
-}
-.sell-input p {
-  display: none;
-}
-.sell-input span {
-  margin: 10px 0 1em;
-  display: block;
-}
-.sell-input input,
-.sell-input textarea {
-  font-family: 'Crete Round', serif;
-  font-size: 12px;
-  width: 100%;
-  padding: 10px 5px;
-  border: 1px solid #AAA;
-  background-color: transparent;
-  text-align: center;
-}
-.sell-submit {
-  clear: both;
-  text-align: center;
-}
-input[type="submit"] {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-weight: bold;
-  background-color: rgb(6, 145, 254);
-  border: none;
-  color: #FFF;
-  padding: 3px 20px;
-  font-size: 16px;
-  line-height: 25px;
-  transition: background-color .3s;
-}
-input[type="submit"]:hover {
-  background-color: rgb(0, 114, 203);
-}
-div.wpcf7-mail-sent-ok,
-div.wpcf7-validation-errors {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  border: none;
-  text-align: center;
-  clear: both;
-}
-span.wpcf7-not-valid-tip {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  margin-top: 0;
-}
 /* End Sell Page */
 
 /* Buy Page */
@@ -1111,7 +1045,6 @@ span.wpcf7-not-valid-tip {
   font-size: 14px;
   cursor: pointer;
   color: #777;
-  text-decoration: none;
   transition: color .3s;
 }
 #buy-body nav li a:hover {
@@ -1132,9 +1065,6 @@ span.wpcf7-not-valid-tip {
   text-decoration: none;
   color: #222;
 }
-#buy-body .product:nth-child(3n+1) {
-  clear: both;
-}
 #buy-body .product-image {
   width: 100%;
   padding-bottom: 70%;
@@ -1154,45 +1084,6 @@ span.wpcf7-not-valid-tip {
   margin: 0;
   font-size: 16px;
   font-style: normal;
-}
-.navigation.pagination {
-  clear: both;
-  text-align: center;
-}
-.navigation.pagination:before {
-  content: '';
-  display: block;
-  margin: 1em auto;
-  height: 1px;
-  width: 150px;
-  background-color: #555;
-}
-.navigation.pagination span.current {
-  font-family: 'Crete Round', serif;
-  color: #000;
-  font-weight: bold;
-  padding: 0 3px;
-  margin: 10 7px;
-  font-size: 16px;
-}
-.navigation.pagination i {
-  font-size: 14px;
-  margin: 0 5px;
-}
-.navigation.pagination a,
-.navigation.pagination a:link,
-.navigation.pagination a:active,
-.navigation.pagination a:visited {
-  font-family: 'Crete Round', serif;
-  text-decoration: none;
-  color: #555;
-  padding: 10px;
-  font-size: 14px;
-  transition: color .3s, text-decoration .3s;
-}
-.navigation.pagination a:hover {
-  color: #000;
-  text-decoration: underline;
 }
 @media (max-width: 600px){
   #buy-top {
@@ -1233,25 +1124,6 @@ span.wpcf7-not-valid-tip {
 }
 #item .item-info p {
   font-size: 14px;
-}
-#item h2 {
-  text-align: center;
-  font-size: 28px;
-}
-#item h2:after {
-  content: "";
-  display: block;
-  width: 150px;
-  height: 1px;
-  background-color: #999;
-  margin: 1em auto;
-}
-#item #buy-item,
-#item #buy-item-link {
-  display: none;
-}
-#item textarea {
-  height: 70px;
 }
 /* End Single Item Page */
 

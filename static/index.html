@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Blue Jay Bay</title>
+		<meta name="description" content="Blue Jay Bay is a furniture and appliance marketplace that operates within the Hopkins community. We purchase and sell furniture, appliances, and other large market items to Johns Hopkins students. Blue Jay Bay makes buying and selling easy by picking up and delivering items directly to your dorm or apartment!">
+		<meta name="author" content="Max Yeo">
+
+		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="apple-touch-icon" href="img/fav.png">
+
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+
+	<body>
+		<header>
+			<div class="wrap">
+				<a href="/" id="logo" style="background-image: url('img/banner.png');"></a>
+				<i class="fa fa-bars"></i>
+				<i class="fa fa-times"></i>
+				<nav>
+					<li><a href="browse.html">Browse the Bay</a></li>
+					<li><a href="sell.html">Sell to the Bay</a></li>
+				</nav>
+			</div>
+		</header>
+
+		<section id="about" style="background-image: url('img/bg.jpg');">
+			<div id="filter">
+				<h2>Buy and Sell Gently Lightly Used Furniture</h2>
+				<h3>door to door furniture</h3>
+				<p>Blue Jay Bay is a furniture and appliance marketplace that operates within the Hopkins community. We purchase and sell furniture, appliances, and other large market items to Johns Hopkins students. Blue Jay Bay makes buying and selling easy by picking up and delivering items directly to your dorm or apartment!</p>
+				<div id="call-to-action">
+					<a href="browse.html" class="blue">Browse the Bay</a>
+					<a href="sell.html" class="gray">Sell to the Bay</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="featured">
+			<h2>Featured Items</h2>
+			<div id="slide-show-arrows">
+				<i id="prev-featured" class="fa fa-chevron-left"></i>
+				<i id="next-featured" class="fa fa-chevron-right"></i>
+			</div>
+			<div class="cycle-slideshow"
+				data-cycle-fx=fade
+				data-cycle-timeout=6000
+				data-cycle-swipe=true
+				data-cycle-slides="> div"
+				data-cycle-pager="#custom-pager"
+				data-cycle-pager-template="<span></span>"
+				data-cycle-prev="#prev-featured"
+				data-cycle-next="#next-featured"
+				>
+				<div class="featured">
+					<div class="grid cf">
+						<div class="col-1-2 featured-image" style="background-image: url(img/hooks.jpg);"></div>
+						<div class="col-1-2 featured-text cf">
+							<h3>Wall Hooks</h3>
+							<p class="description">Hang all of your necessary essentials.  Clear up space in your closet and hang your things on a wall.  </p>
+							<p class="price">$15</p>
+							<a href="single.html" >Purchase</a>
+						</div>
+					</div>
+				</div>
+				<div class="featured right">
+					<div class="grid cf">
+						<div class="col-1-2 featured-text cf">
+							<h3>Wall Hooks</h3>
+							<p class="description">Hang all of your necessary essentials.  Clear up space in your closet and hang your things on a wall.  </p>
+							<p class="price">$15</p>
+							<a href="single.html" >Purchase</a>
+						</div>
+						<div class="col-1-2 featured-image" style="background-image: url(img/white.jpg);"></div>
+					</div>
+				</div>
+				<div class="featured">
+					<div class="grid cf">
+						<div class="col-1-2 featured-image" style="background-image: url(img/wall.jpg);"></div>
+						<div class="col-1-2 featured-text cf">
+							<h3>Wall Hooks</h3>
+							<p class="description">Hang all of your necessary essentials.  Clear up space in your closet and hang your things on a wall.  </p>
+							<p class="price">$15</p>
+							<a href="single.html" >Purchase</a>
+						</div>
+					</div>
+				</div>
+				<div class="featured right">
+					<div class="grid cf">
+						<div class="col-1-2 featured-text cf">
+							<h3>Wall Hooks</h3>
+							<p class="description">Hang all of your necessary essentials.  Clear up space in your closet and hang your things on a wall.  </p>
+							<p class="price">$15</p>
+							<a href="single.html" >Purchase</a>
+						</div>
+						<div class="col-1-2 featured-image" style="background-image: url(img/white.jpg);"></div>
+					</div>
+				</div>
+			</div>
+			<div id="custom-pager" class="center"></div>
+		</section>
+
+		<section id="eco" style="background-image: url(img/mac.jpg)">
+			<div id="wrapper">
+				<h2>Recycling Furniture Helps the Environment</h2>
+				<p>Buying new furniture or throwing away your furniture is costly on the planet.  Every transaction prevents another tree from getting cut down, or metal and plastics from going to our landfills.  Blue Jay Bay is also sworn to use more eco-friendly means of transportation and storage.  </p>
+			</div>
+		</section>
+
+		<section id="hopkins">
+			<div class="grid cf">
+				<h2>Created by <span>Hopkins Students</span> for <span>Hopkins Students</span></h2>
+				<p class="col-8-16 push-4">Created by Hopkins Students with the help of Hopkins Student Enterprises, Center for Leadership Education, and Johns Hopkins University Blue Jay Bay only buys and sells to students with a @jhu.edu email address.</p>
+				<div id="sponsors">
+					<a><img src="img/hse.png"></a>
+					<a><img src="img/jhu.png"></a>
+				</div>
+				<h3>@jhu.edu email <span>required</span></h3>
+			</div>
+		</section>
+
+		<footer>
+			<div class="grid cf">
+				<div id="address" class="col-1-3">
+					<p>3400 N Charles St</p>
+					<p>Whitehead Hall 104</p>
+					<p>Baltimore, MD 21218</p>
+				</div>
+				<div id="links" class="col-1-3">
+					<h5>Essential Links</h5>
+					<nav>
+						<li><a href="careers">Careers</a></li>
+						<li><a href="tac">Terms and Conditions</a></li>
+					</nav>
+				</div>
+				<div id="media" class="col-1-3">
+					<a href="mailto:bluejaybay@jhu.edu">bluejaybay@jhu.edu</a>
+					<a href="">Like us on Facebook</a>
+				</div>
+			</div>
+			<div id="copyright">
+				<h6>COPYRIGHT &copy; 2015 BLUE JAY BAY.</h6>
+				<h6>AN <a href="http://hse.jhu.edu/" target="_blank">HSE</a> VENTURE.  FOR <a href="http://hse.jhu.edu/" target="_blank">HSE</a> RELATED QUESTIONS, EMAIL HSE AT <a href="mailto:hse@jhu.edu">HSE@JHU.EDU</a></h6>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/cycle.js"></script>
+		<script type="text/javascript" src="js/style.js"></script>
+	</body>
+</html>
