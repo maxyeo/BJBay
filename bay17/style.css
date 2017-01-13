@@ -615,7 +615,7 @@ h5, h6 {
     font-style: italic;
     font-weight: 400;
 }
-p {
+p, span {
     font-family: 'Crete Round', serif;
     font-style: normal;
     font-weight: 400;
@@ -1029,7 +1029,24 @@ header nav li a:hover {
 #woo .products h3 {
     font-size: 14px;
 }
-
+#woo .products .woocommerce-Price-amount {
+    margin: 10px 0;
+    display: block;
+}
+#woo .products a.button,
+#woo .products a.button:link,
+#woo .products a.button:active,
+#woo .products a.button:visited {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #008eff;
+    transition: background-color .3s;
+}
+#woo .products a.button:hover {
+    background-color: #1082dd;
+}
 /* Woocommerce */
 
 /* Sell Page */
