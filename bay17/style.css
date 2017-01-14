@@ -638,7 +638,7 @@ header {
     top: 0;
     left: 0;
     height: 100px;
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
     z-index: 200;
     text-align: center;
@@ -655,7 +655,7 @@ header #logo {
     float: left;
     margin: 10px 0;
     background-size: contain;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
 }
 header i.fa {
@@ -998,8 +998,14 @@ header nav li a:hover {
 /* Page */
 
 /* Woocommerce */
-#woo {
-    padding: 120px 0 50px;
+#products-top {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#products-woo {
+    padding: 0 0 50px;
 }
 .bay17-sorting .woocommerce-ordering {
     float: left;
@@ -1009,34 +1015,34 @@ header nav li a:hover {
     float: left;
     margin: 0 0 0 10px;
 }
-#woo .products {
+#products-woo .products {
     padding: 0;
 }
-#woo .products li {
+#products-woo .products li {
     list-style: none;
     width: 33.3%;
     float: left;
     text-align: center;
     padding: 10px;
 }
-#woo .products a,
-#woo .products a:link,
-#woo .products a:active,
-#woo .products a:visited {
+#products-woo .products a,
+#products-woo .products a:link,
+#products-woo .products a:active,
+#products-woo .products a:visited {
     text-decoration: none;
     color: #555;
 }
-#woo .products h3 {
+#products-woo .products h3 {
     font-size: 14px;
 }
-#woo .products .woocommerce-Price-amount {
+#products-woo .products .woocommerce-Price-amount {
     margin: 10px 0;
     display: block;
 }
-#woo .products a.button,
-#woo .products a.button:link,
-#woo .products a.button:active,
-#woo .products a.button:visited {
+#products-woo .products a.button,
+#products-woo .products a.button:link,
+#products-woo .products a.button:active,
+#products-woo .products a.button:visited {
     font-size: 14px;
     display: inline-block;
     padding: 10px 20px;
@@ -1044,7 +1050,7 @@ header nav li a:hover {
     background-color: #008eff;
     transition: background-color .3s;
 }
-#woo .products a.button:hover {
+#products-woo .products a.button:hover {
     background-color: #1082dd;
 }
 /* Woocommerce */
